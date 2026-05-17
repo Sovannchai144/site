@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="News & Events - Light of Asia School">
+  <title>News & Events | Light of Asia School</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="../src/logo/LOGO.gif" type="image/gif">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="../CSS/news.css">
+</head>
+
+<body>
+  <!-- Header -->
+ <header class="site-header">
+  <div class="container header-wrapper">
+    <a class="brand" href="../HTML/about.html">
+      <img src="../src/logo/LOGO.gif" alt="Light of Asia School Logo" class="brand-logo" />
+    </a>
+
+    <!-- Hamburger toggle button -->
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <ul class="nav-list">
+      <li><a href="../index.html/index.html">ទំព័រដើម</a></li>
+      <li><a href="../index.html/about.html">អំពីយើង</a></li>
+      <li>
+        <a href="#">កម្មវិធីសិក្សា ▼</a>
+        <ul class="dropdown-nav-list">
+          <li><a href="../subject/Khmer.html">ភាសាខ្មែរ</a></li>
+          <li><a href="../subject/China.html">ភាសាចិន</a></li>
+          <li><a href="../subject/English.html">ភាសាអង់គ្លេស</a></li>
+          <li><a href="../subject/Computer.html">កុំព្យូទ័រ</a></li>
+        </ul>
+      </li>
+      <li><a href="../news/index.html">ព័ត៍មាន &amp; ព្រឹត្តិការណ៍</a></li>
+      <li><a href="../index.html/contact.html">ការទំនាក់ទំនង</a></li>
+    </ul>
+  </div>
+</header>
+  <!-- Hero Section -->
+  <main class="news">
+    <div class="news-content">
+      <h1>ព័ត៌មាន & ព្រឹត្តិការណ៍</h1>
+      <p>ការបង្ហាញនូវព័ត៌មាន & ព្រឹត្តិការណ៍ថ្មីៗជារៀងរាល់ថ្ងៃរបស់ <span class="highlight">សាលារៀន ពន្លឺ អា​ស៊ី</span></p>
+    </div>
+  </main>
+        <!-- Cards -->
+           <div class="container">
+        <div class="cards-grid">
+            <article class="card" data-category="news">
+                <div class="card-img">
+                    <img src="../src/Banner/new match.jpg" alt="Conference">
+                    <span class="badge">ព័ត៌មាន & ព្រឹត្តិការណ៍</span>
+                    <button class="like-btn" onclick="toggleLike(this)">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="card-meta">
+                        <i class="far fa-calendar"></i>
+                        កក្ដដា​ ទី៦ ឆ្នាំ២០២៦
+                    </div>
+                    <h2 class="card-title">International Academic Conference Successfully Concluded</h2>
+                    <p class="card-desc">Our university hosted a groundbreaking international conference bringing together leading researchers and academics.</p>
+                    <a href="../news/news card.html" class="card-link">អានបន្ត<i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+                <article class="card" data-category="news">
+                <div class="card-img">
+                    <img src="../src/Banner/brjom.jpg" alt="Conference">
+                    <span class="badge">ព័ត៌មាន & ព្រឹត្តិការណ៍</span>
+                    <button class="like-btn" onclick="toggleLike(this)">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="card-meta">
+                        <i class="far fa-calendar"></i>
+                        មករា​ ទី២ ឆ្នាំ២០២៦
+                    </div>
+                    <h2 class="card-title">International Academic Conference Successfully Concluded</h2>
+                    <p class="card-desc">Our university hosted a groundbreaking international conference bringing together leading researchers and academics.</p>
+                    <a href="../news/news card.html" class="card-link">អានបន្ត<i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+               <article class="card" data-category="news">
+                <div class="card-img">
+                    <img src="../src/Banner/bossjpg.jpg" alt="Conference">
+                    <span class="badge">ព័ត៌មាន & ព្រឹត្តិការណ៍</span>
+                    <button class="like-btn" onclick="toggleLike(this)">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="card-meta">
+                        <i class="far fa-calendar"></i>
+                        ទី១​ ខែកក្ដដា ឆ្នាំ២០២៦
+                    </div>
+                    <h2 class="card-title">International Academic Conference Successfully Concluded</h2>
+                    <p class="card-desc">Our university hosted a groundbreaking international conference bringing together leading researchers and academics.</p>
+                    <a href="../news/news card.html" class="card-link">អានបន្ត<i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+             <article class="card" data-category="news">
+                <div class="card-img">
+                    <img src="../src/Banner/all cheach.jpg" alt="Conference">
+                    <span class="badge">ព័ត៌មាន & ព្រឹត្តិការណ៍</span>
+                    <button class="like-btn" onclick="toggleLike(this)">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="card-meta">
+                        <i class="far fa-calendar"></i>
+                        មករា​ ទី២ ឆ្នាំ២០២៦
+                    </div>
+                    <h2 class="card-title">International Academic Conference Successfully Concluded</h2>
+                    <p class="card-desc">Our university hosted a groundbreaking international conference bringing together leading researchers and academics.</p>
+                    <a href="../news/news card.html" class="card-link">អានបន្ត<i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+               <article class="card" data-category="news">
+                <div class="card-img">
+                    <img src="../src/Banner/ttul sinhabat.jpg" alt="Conference">
+                    <span class="badge">ព័ត៌មាន & ព្រឹត្តិការណ៍</span>
+                    <button class="like-btn" onclick="toggleLike(this)">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="card-meta">
+                        <i class="far fa-calendar"></i>
+                        មករា​ ទី២ ឆ្នាំ២០២៦
+                    </div>
+                    <h2 class="card-title">International Academic Conference Successfully Concluded</h2>
+                    <p class="card-desc">Our university hosted a groundbreaking international conference bringing together leading researchers and academics.</p>
+                    <a href="../news/news card.html" class="card-link">អានបន្ត<i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+           <article class="card" data-category="news">
+                <div class="card-img">
+                    <img src="../src/Banner/pagoda.jpg" alt="Conference">
+                    <span class="badge">ព័ត៌មាន & ព្រឹត្តិការណ៍</span>
+                    <button class="like-btn" onclick="toggleLike(this)">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="card-meta">
+                        <i class="far fa-calendar"></i>
+                        មករា​ ទី២ ឆ្នាំ២០២៦
+                    </div>
+                    <h2 class="card-title">International Academic Conference Successfully Concluded</h2>
+                    <p class="card-desc">Our university hosted a groundbreaking international conference bringing together leading researchers and academics.</p>
+                    <a href="../news/news card.html" class="card-link">អានបន្ត<i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+</div>
+ <!-- Responsive Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- University Info -->
+    <div class="footer-section">
+      <img src="../src/logo/LOGO.gif" alt="University Logo" class="img">
+      <p><strong>Light of Asia School</strong></p>
+      <p>
+        LAS,Cheach Village,<br>
+        Cheach Commune, Kamchaymear District,<br>
+        Prey Veng Province, CAMBODIA.
+      </p>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-section">
+      <h4>Contacts</h4>
+      <p><i class="fas fa-phone"></i> 123 456 78</p>
+      <p><i class="fas fa-envelope"></i> info@las.kh</p>
+    </div>
+
+    <!-- Social Links -->
+    <div class="footer-section">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© Copyright 2026 Light of Asia School. All rights reserved.</p>
+  </div>
+</footer>
+  
+  <!-- Scripts -->
+  <script src="../JS/news.js"></script>
+</body>
+</html>
